@@ -1,0 +1,23 @@
+Variable,Description
+MachineId,Individual machine ID
+ProductName,Type of Endpoint Protection enabled e.g. win8defender
+HasTpm ,True if the machine has tpm (Trusted Platform Module) enabled
+ Platform,Version of Windows installed
+ Processor ,Process architecture of the installed operating system
+SkuEdition ,SKU Edition of the Windows Version
+IsProtected ,If the Machine is Protected by an active and up-to-date Antivirus Product
+Firewall ,If the Windows Firewall is enabled
+AdminApprovalMode,"Whether the ""administrator in Admin Approval Mode"" user type is disabled or enabled"
+DeviceType,"Type of the Device eg - Notebook, Laptop, Desktop"
+PrimaryDiskTotalCapacity , Amount of disk space on primary disk of the machine in MB
+PrimaryDiskTypeName ,Friendly name of Primary Disk Type - HDD or SSD
+SystemVolumeTotalCapacity ,The size of the partition that the System volume is installed on in MB
+HasOpticalDiskDrive , True indicates that the machine has an optical disk drive (CD/DVD)
+TotalPhysicalRAM ,Retrieves the physical RAM in MB
+AutoUpdate,Friendly name of the WindowsUpdate auto-update settings on the machine.
+GenuineStateOS,Indicates the authenticity of the OS version
+IsSecureBootEnabled ,Indicates if Secure Boot mode is enabled
+IsPenCapable ,Is the device capable of pen input ?
+IsAlwaysOnAlwaysConnectedCapable,Retreives information about whether the battery enables the device to be AlwaysOnAlwaysConnected 
+IsGamer ,Indicates whether the device is a gamer device or not based on its hardware combination.
+IsInfected,Indicates if the machine has been diagnosed as Malware affected
